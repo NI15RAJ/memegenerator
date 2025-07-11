@@ -1,33 +1,33 @@
-# 🌤️ Weather App
+# 😂 Meme Generator App
 
-> A responsive React application to check the current weather of any city using the OpenWeatherMap API.
+> A fun and interactive React app to generate random memes with your own custom captions.
 
-**🔗 Live Site:** [https://ni15raj.github.io/Weather-App](https://ni15raj.github.io/Weather-App)
+**🔗 Live Demo:** [https://ni15raj.github.io/Meme-Generator](https://ni15raj.github.io/Meme-Generator)
 
 ---
 
 ## 📸 Preview
 
-![Weather App Screenshot](https://via.placeholder.com/800x400?text=Weather+App+Screenshot)
-<!-- Replace with your actual screenshot URL or image -->
+![Meme Generator Screenshot](https://via.placeholder.com/800x400?text=Meme+Generator+App)
+<!-- Replace with a real screenshot if available -->
 
 ---
 
 ## ✨ Features
 
-- 🔍 Search weather by city name
-- 🌡️ Shows temperature, humidity, and wind speed
-- 🌈 Dynamic background/images based on weather
-- 🕒 Real-time weather updates
-- 💡 Clean and responsive UI
+- 🖼️ Fetches memes from an external API
+- 📝 Add custom top and bottom text to memes
+- 🔀 Random meme image generator
+- 📲 Responsive layout for desktop and mobile
+- 💾 No login or account required
 
 ---
 
 ## 🚀 Tech Stack
 
 - [React](https://reactjs.org/)
-- [OpenWeatherMap API](https://openweathermap.org/api)
-- HTML5 + CSS3 + JavaScript
+- [Meme API](https://api.imgflip.com/)
+- HTML + CSS + JavaScript
 - GitHub Pages for deployment
 
 ---
@@ -35,6 +35,7 @@
 ## 📦 Installation & Setup
 
 ### 1. Clone the Repository
+
 ```bash
-git clone https://github.com/ni15raj/Weather-App.git
-cd Weather-App
+git clone https://github.com/ni15raj/Meme-Generator.git
+cd Meme-Generator
