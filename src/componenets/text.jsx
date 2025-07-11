@@ -1,26 +1,18 @@
-import React, { useState, useRef } from "react";
-import Draggable from "react-draggable";
+import React from "react";
 
 const Text = () => {
-  const [text, setText] = useState("Double-click to edit");
-  const [isEditing, setIsEditing] = useState(false);
-  const nodeRef = useRef(null); // required for React 18
+  const top = Math.random() * 200 + 50;
+  const left = Math.random() * 200 + 50;
 
   return (
-    <Draggable nodeRef={nodeRef}>
-      <div ref={nodeRef}>
-        {isEditing ? (
-          <input
-            value={text}
-            onChange={(e) => setText(e.target.value)}
-            onDoubleClick={() => setIsEditing(false)}
-            autoFocus
-          />
-        ) : (
-          <div onDoubleClick={() => setIsEditing(true)}>{text}</div>
-        )}
-      </div>
-    </Draggable>
+    <div
+      className="meme-text"
+      contentEditable
+      suppressContentEditableWarning={true}
+      style={{ top: `${top}px`, left: `${left}px` }}
+    >
+      Your Text
+    </div>
   );
 };
 
