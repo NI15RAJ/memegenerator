@@ -6,12 +6,7 @@
 
 ---
 
-## 📸 Preview
 
-![Meme Generator Screenshot](https://via.placeholder.com/800x400?text=Meme+Generator+App)
-<!-- Replace with a real screenshot if available -->
-
----
 
 ## ✨ Features
 
