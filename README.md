@@ -2,7 +2,7 @@
 
 > A fun and interactive React app to generate random memes with your own custom captions.
 
-**🔗 Live Demo:** [https://ni15raj.github.io/Meme-Generator](https://ni15raj.github.io/Meme-Generator)
+**🔗 Live Demo:** [https://ni15raj.github.io/memegenerator/](https://ni15raj.github.io/memegenerator/)
 
 ---
 
